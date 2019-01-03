@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding:0;
+    font-family: 'VT323';
+}
+
+#main {
+    overflow: hidden;
+    min-width:1800px;
+    height: 100vh;
+    margin: auto;
+    background: pink;
+}
+ul {
+    position: absolute;
+    list-style: none;
+}
+ul li {
+    margin-bottom: 3px;
+    font-size: 90px;
+}
+h1 {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    font-size: 45px;
+    animation: clignote 3.2s infinite;
+}
+@keyframes clignote {
+
+    0%, 20%{
+        opacity: 0;
+    }
+    20%, 60%{
+        opacity: 1;
+    }
+    61%, 80%{
+        opacity: 0;
+    }
+    81%, 100%{
+        opacity: 1;
+    }
+
+
+}
+a{
+    position: absolute;
+    font-size: 120px;
+    margin-top: 620px;
+    margin-left: 200px;
+}
+.block {
+    width: 50%;
+    height: auto;
+    position: relative;
+    transform: rotateX(55deg) rotateY(0deg) rotateZ(45deg);
+
+}
+
+.block img{
+    width: 100%; 
+    height: auto;
+
+}
+
+.b1 {
+    left: 60%;
+    bottom: 10%;
+}
+
+.b2 {
+    left: 33%;
+    bottom: 45%;
+}
